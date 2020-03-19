@@ -67,7 +67,7 @@ local s_rule = mr:section(TypedSection, "rule", translate("Client Rules"))
     s_rule.defaults.src     = "*" --"lan", "guest" or enything on local side
     s_rule.defaults.dest    = "wan"
     s_rule.defaults.target  = "REJECT"
-    s_rule.defaults.proto    = "0"
+    s_rule.defaults.proto    = "0" 
 --    s_rule.defaults.extra = "--kerneltz"
     
     -- only AC-related rules
